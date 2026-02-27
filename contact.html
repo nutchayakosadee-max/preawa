@@ -24,19 +24,19 @@
         </div>
     </header>
 
-    <section class="hero" style="height: 300px; background-image: linear-gradient(rgba(244, 164, 96, 0.8), rgba(210, 105, 30, 0.8)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&h=400&fit=crop');">
+    <section class="hero" style="height: 300px; background-image: linear-gradient(rgba(244, 164, 96, 0.8), rgba(210, 105, 30, 0.8)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&h=400&fit=crop'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; text-align: center; color: white;">
         <div class="hero-content">
-            <h2>ติดต่อเรา</h2>
-            <p>มีคำถามหรือต้องการข้อมูลเพิ่มเติม? ติดต่อเราได้เลย!</p>
+            <h2 style="font-size: 3rem; margin-bottom: 10px;">ติดต่อเรา</h2>
+            <p style="font-size: 1.2rem;">มีคำถามหรือต้องการข้อมูลเพิ่มเติม? ติดต่อเราได้เลย!</p>
         </div>
     </section>
 
     <section class="contact-section">
-        <div class="container">
-            <div class="contact-container">
-                <div class="contact-info">
+        <div class="container" style="padding: 60px 0;">
+            <div class="contact-container" style="display: flex; flex-wrap: wrap; gap: 50px;">
+                <div class="contact-info" style="flex: 1; min-width: 300px;">
                     <h2 style="color: #8B4513; margin-bottom: 30px;">ข้อมูลติดต่อ</h2>
-
+                    
                     <div style="margin-bottom: 30px;">
                         <h3 style="color: #F4A460; margin-bottom: 15px;">📍 ที่อยู่</h3>
                         <p>เว็บไซต์ท่องเที่ยวลำปาง<br>
@@ -71,35 +71,35 @@
                     </div>
                 </div>
 
-                <div class="contact-form">
+                <div class="contact-form" style="flex: 1.5; min-width: 300px; background: #f9f9f9; padding: 40px; border-radius: 15px;">
                     <h2 style="color: #8B4513; margin-bottom: 30px;">ส่งข้อความถึงเรา</h2>
                     <form>
-                        <div class="form-group">
-                            <label for="name">ชื่อ-นามสกุล *</label>
-                            <input type="text" id="name" name="name" required placeholder="กรุณากรอกชื่อ-นามสกุล">
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="name" style="display: block; margin-bottom: 5px;">ชื่อ-นามสกุล *</label>
+                            <input type="text" id="name" name="name" required placeholder="กรุณากรอกชื่อ-นามสกุล" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
                         </div>
 
-                        <div class="form-group">
-                            <label for="email">อีเมล *</label>
-                            <input type="email" id="email" name="email" required placeholder="example@email.com">
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="email" style="display: block; margin-bottom: 5px;">อีเมล *</label>
+                            <input type="email" id="email" name="email" required placeholder="example@email.com" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
                         </div>
 
-                        <div class="form-group">
-                            <label for="phone">เบอร์โทรศัพท์</label>
-                            <input type="tel" id="phone" name="phone" placeholder="08X-XXX-XXXX">
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="phone" style="display: block; margin-bottom: 5px;">เบอร์โทรศัพท์</label>
+                            <input type="tel" id="phone" name="phone" placeholder="08X-XXX-XXXX" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
                         </div>
 
-                        <div class="form-group">
-                            <label for="subject">หัวข้อ *</label>
-                            <input type="text" id="subject" name="subject" required placeholder="หัวข้อที่ต้องการติดต่อ">
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="subject" style="display: block; margin-bottom: 5px;">หัวข้อ *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="หัวข้อที่ต้องการติดต่อ" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
                         </div>
 
-                        <div class="form-group">
-                            <label for="message">ข้อความ *</label>
-                            <textarea id="message" name="message" required placeholder="พิมพ์ข้อความของคุณที่นี่..."></textarea>
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="message" style="display: block; margin-bottom: 5px;">ข้อความ *</label>
+                            <textarea id="message" name="message" required placeholder="พิมพ์ข้อความของคุณที่นี่..." style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; height: 150px;"></textarea>
                         </div>
 
-                        <button type="submit" class="submit-btn">ส่งข้อความ</button>
+                        <button type="submit" class="submit-btn" style="background-color: #8B4513; color: white; padding: 12px 30px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">ส่งข้อความ</button>
                     </form>
 
                     <div style="margin-top: 20px; padding: 15px; background-color: #FFF8DC; border-radius: 5px;">
@@ -111,7 +111,7 @@
             </div>
 
             <div style="margin-top: 80px;">
-                <h2 class="section-title">คำถามที่พบบ่อย (FAQ)</h2>
+                <h2 class="section-title" style="text-align: center; margin-bottom: 40px; color: #8B4513;">คำถามที่พบบ่อย (FAQ)</h2>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
                     <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
                         <h3 style="color: #8B4513; margin-bottom: 15px;">🚗 การเดินทางไปลำปาง</h3>
@@ -125,88 +125,52 @@
                         <h3 style="color: #8B4513; margin-bottom: 15px;">🏨 ที่พัก</h3>
                         <p>ลำปางมีที่พักหลากหลายระดับ ตั้งแต่โฮมสเตย์ รีสอร์ท จนถึงโรงแรมระดับ 4-5 ดาว ราคาเริ่มต้นประมาณ 500 บาทต่อคืน</p>
                     </div>
-                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-                        <h3 style="color: #8B4513; margin-bottom: 15px;">🍜 อาหารแนะนำ</h3>
-                        <p>ต้องลองขนมจีนน้ำเงี้ยว ข้าวซอยลำปาง แคบหมู และของฝากเด็ดๆ เช่น ข้าวตังทิพย์ ข้าวเกรียบปลา</p>
-                    </div>
-                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-                        <h3 style="color: #8B4513; margin-bottom: 15px;">🎫 ค่าใช้จ่าย</h3>
-                        <p>งบประมาณเฉลี่ยต่อวันประมาณ 1,500-2,500 บาท รวมที่พัก อาหาร และค่าเข้าชมสถานที่ท่องเที่ยว</p>
-                    </div>
-                    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-                        <h3 style="color: #8B4513; margin-bottom: 15px;">📅 จำนวนวันที่แนะนำ</h3>
-                        <p>แนะนำอย่างน้อย 2-3 วัน เพื่อเที่ยวชมแหล่งท่องเที่ยวหลัก และได้สัมผัสบรรยากาศของเมืองอย่างเต็มที่</p>
-                    </div>
                 </div>
             </div>
 
             <div style="margin-top: 80px; background-color: white; padding: 50px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
-                <h2 class="section-title">เส้นทางท่องเที่ยว 2 วัน 1 คืน</h2>
+                <h2 class="section-title" style="text-align: center; margin-bottom: 40px; color: #8B4513;">เส้นทางท่องเที่ยว 2 วัน 1 คืน</h2>
                 
                 <div style="margin-bottom: 40px;">
                     <h3 style="color: #F4A460; margin-bottom: 20px; font-size: 24px;">📅 วันที่ 1</h3>
                     <ul style="list-style: none; padding-left: 0;">
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>08:00</strong> - เช็คอินที่ที่พัก พักผ่อน
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>10:00</strong> - ชมวัดพระธาตุลำปางหลวง
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>12:00</strong> - รับประทานอาหารกลางวันที่ตลาดกาดกองต้า
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>14:00</strong> - เดินเล่นชมตลาดและซื้อของฝาก
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>17:00</strong> - นั่งรถม้าชมเมืองเก่า
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; background-color: #FFF8DC;">
-                            <strong>19:00</strong> - รับประทานอาหารเย็น พักผ่อนที่โรงแรม
-                        </li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>08:00</strong> - เช็คอินที่ที่พัก พักผ่อน</li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>10:00</strong> - ชมวัดพระธาตุลำปางหลวง</li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>12:00</strong> - รับประทานอาหารกลางวัน ที่ตลาดกาดกองต้า</li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>14:00</strong> - เดินเล่นชมตลาดและซื้อของฝาก</li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>17:00</strong> - นั่งรถม้าชมเมืองเก่า</li>
                     </ul>
                 </div>
 
                 <div>
                     <h3 style="color: #F4A460; margin-bottom: 20px; font-size: 24px;">📅 วันที่ 2</h3>
                     <ul style="list-style: none; padding-left: 0;">
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>07:00</strong> - รับประทานอาหารเช้า เช็คเอาท์
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>08:30</strong> - เดินทางไปศูนย์อนุรักษ์ช้างไทย
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>09:30</strong> - ร่วมกิจกรรมอาบน้ำช้างและให้อาหารช้าง
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;">
-                            <strong>12:00</strong> - รับประทานอาหารกลางวัน
-                        </li>
-                        <li style="padding: 15px; border-left: 4px solid #F4A460; background-color: #FFF8DC;">
-                            <strong>14:00</strong> - เดินทางกลับบ้าน
-                        </li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>07:00</strong> - รับประทานอาหารเช้า เช็คเอาท์</li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>08:30</strong> - เดินทางไปศูนย์อนุรักษ์ช้างไทย</li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>09:30</strong> - ร่วมกิจกรรมอาบน้ำช้างและให้อาหารช้าง</li>
+                        <li style="padding: 15px; border-left: 4px solid #F4A460; margin-bottom: 15px; background-color: #FFF8DC;"><strong>14:00</strong> - เดินทางกลับบ้าน</li>
                     </ul>
                 </div>
             </div>
 
             <div style="margin-top: 60px; text-align: center;">
-                <a href="index.html" class="btn">กลับสู่หน้าแรก</a>
+                <a href="index.html" class="btn" style="background-color: #8B4513; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; display: inline-block;">กลับสู่หน้าแรก</a>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer style="background-color: #333; color: white; padding: 40px 0; margin-top: 60px;">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-content" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
                 <div class="footer-section">
                     <h3>เกี่ยวกับเรา</h3>
                     <p>เว็บไซต์ท่องเที่ยวลำปาง ให้ข้อมูลแหล่งท่องเที่ยวและวัฒนธรรมในจังหวัดลำปาง</p>
                 </div>
                 <div class="footer-section">
                     <h3>เมนูหลัก</h3>
-                    <ul>
-                        <li><a href="index.html">หน้าแรก</a></li>
-                        <li><a href="contact.html">ติดต่อเรา</a></li>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="index.html" style="color: white; text-decoration: none;">หน้าแรก</a></li>
+                        <li><a href="contact.html" style="color: white; text-decoration: none;">ติดต่อเรา</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -214,11 +178,10 @@
                     <p>Facebook | Instagram | Twitter</p>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="footer-bottom" style="text-align: center; margin-top: 30px; border-top: 1px solid #555; padding-top: 20px;">
                 <p>&copy; 2024 ท่องเที่ยวลำปาง. สร้างด้วย ❤️ โดยนักเรียน ป.6</p>
             </div>
         </div>
     </footer>
 </body>
-
 </html>
